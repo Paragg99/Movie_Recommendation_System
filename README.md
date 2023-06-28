@@ -34,17 +34,22 @@ Before calculating similarity scores, the movie data undergoes preprocessing ste
 ## Features
 
 User-friendly interface for inputting movie preferences.
+
 Utilizes the difflib library to handle movie title suggestions.
+
 Utilizes the TfidfVectorizer to convert textual features into numerical representations.
+
 Calculates cosine similarity between user preferences and available movie titles.
+
 Recommends top-rated movies based on similarity scores.
 
 ## Customization
 
 If you want to customize the movie recommendation system, you can modify the following parameters:
 
-threshold: The similarity score threshold for recommending movies. Adjusting this value can impact the number of recommendations displayed.
-max_recommendations: The maximum number of movies to recommend.
+**threshold:** The similarity score threshold for recommending movies. Adjusting this value can impact the number of recommendations displayed.
+**max_recommendations:** The maximum number of movies to recommend.
+
 You can find these parameters in the movie_recomendation_system.ipynb file and adjust them according to your needs.
 
 ## Limitations
@@ -52,5 +57,7 @@ You can find these parameters in the movie_recomendation_system.ipynb file and a
 Please note the following limitations of the movie recommendation system:
 
 The accuracy of recommendations heavily depends on the quality and diversity of the dataset used.
+
 The system currently only considers textual features (genres, keywords, tagline, cast, director) for recommendations and does not take into account other factors such as user ratings or release dates.
+
 The performance may vary
