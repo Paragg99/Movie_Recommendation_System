@@ -33,8 +33,7 @@ Before calculating similarity scores, the movie data undergoes preprocessing ste
 
 ## Features
 
-User-friendly interface for inputting movie preferences.
-
+User-friendly interface for inputting movie preferences./n
 Utilizes the difflib library to handle movie title suggestions.
 
 Utilizes the TfidfVectorizer to convert textual features into numerical representations.
