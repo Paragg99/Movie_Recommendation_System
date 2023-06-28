@@ -48,6 +48,7 @@ Recommends top-rated movies based on similarity scores.
 If you want to customize the movie recommendation system, you can modify the following parameters:
 
 **threshold:** The similarity score threshold for recommending movies. Adjusting this value can impact the number of recommendations displayed.
+
 **max_recommendations:** The maximum number of movies to recommend.
 
 You can find these parameters in the movie_recomendation_system.ipynb file and adjust them according to your needs.
