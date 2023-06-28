@@ -7,11 +7,17 @@ The movie recommendation system relies on a dataset of movie information, includ
 The dataset CSV file available in this repository we take the most useful column to build the model which are:
 
 **title:** The title of the movie.
+
 **genres:** The genres associated with the movie (e.g., Action, Drama, Comedy).
+
 **keywords:** Keywords or descriptive terms related to the movie.
+
 **tagline:** A short and catchy phrase associated with the movie.
+
 **cast:** The actors or actresses involved in the movie.
+
 **director:** The director of the movie.
+
 Ensure that your dataset includes these columns and provides sufficient movie information for accurate recommendations.
 
 ## Data Preprocessing & Model Building
